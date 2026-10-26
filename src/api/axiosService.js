@@ -1,0 +1,17 @@
+import instance from './axiosInstance';
+
+const axiosServices = async (httpMethod, url, reqBody) => {
+  try {
+    const response = await instance({
+      method: httpMethod,
+       url,
+      data: reqBody
+    });
+
+    return response;
+  } catch (err) {
+    throw err;
+  }
+};
+
+export default axiosServices;

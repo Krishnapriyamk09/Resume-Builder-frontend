@@ -1,0 +1,18 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#bg{
+    background-image: url('https://media.licdn.com/dms/image/v2/D5612AQH34j1DoDsvSg/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1702059465365?e=2147483647&v=beta&t=xn_zpm1Jd8O8qqxYVu45i341EcckvSs4II8NiEqGOzE');
+    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+#homeCard{
+    text-align: center;
+    padding:300px;
+    padding-left: 500px;
+    padding-right: 500px;
+    
+}
