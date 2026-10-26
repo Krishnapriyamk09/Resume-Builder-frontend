@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const instance = axios.create({
-  baseURL: "https://resume-builder-knc9.onrender.com",
+  baseURL: "https://resume-builder-backend-z844.onrender.com",
   timeout: 5000
 });
 
